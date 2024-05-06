@@ -1,0 +1,216 @@
+:root {
+  
+    --bg1: rgb(158, 145, 151);
+    --bg2: rgb(253, 250, 250);
+    --body:rgb(95, 86, 86);
+    --brand: #f2b03b;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+
+
+}
+body {
+    background-color: var(--bg1);
+}
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#banner {
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.8), rgba(44, 42, 42, 0.3)), url(https://wallpapertag.com/wallpaper/full/a/4/8/584656-beauty-backgrounds-2000x1279-full-hd.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+/* */
+.navbar {
+    background: linear-gradient(to bottom, hsla(0, 9%, 96%, 0.829) , rgba(238, 230, 230, 0.884));
+}
+
+.nav-link{
+    color: white;
+}
+.navbar .nav-link:hover {
+    color: var(--brand) !important
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+#about {
+    background-color: rgb(158, 131, 143);
+}
+
+.icon-box-img {
+    width: 40%;
+}
+
+.btn-outlined-brand {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outlined-brand:hover {
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover { 
+    background-color: var(--bg1);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #ffffff;
+}
+
+#cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*parallax effect */
+    background-attachment: fixed;
+    /* parallax effect / to effect set to normal */
+    background-image:  linear-gradient(to right, hsla(0, 2%, 17%, 0.8), rgba(44, 42, 42, 0.3)), url(https://wallpapertag.com/wallpaper/full/a/4/8/584656-beauty-backgrounds-2000x1279-full-hd.jpg);
+    min-height: 70vh;
+}
+
+#services {
+    background-color: rgb(173, 167, 169);
+}
+
+#reviews {
+
+    background-color:rgb(173, 167, 169) ;
+}
+
+.testimonial {
+    background-color:  rgb(196, 178, 190);
+    padding: 30px;
+}
+
+.testimonial img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+.reviews a {
+    color: var(--brand);
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.accordion-button{
+    background-color: rgb(206, 230, 230);
+    border: none;
+    border-bottom: 1px rgb(114, 250, 193);
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(58, 65, 65);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.accordion-body {
+border-left: 3px solid var(--brand);
+padding: 10px 15px;
+margin-left: 0;
+background-color: -#636061;
+}
+
+.faq-answer p {
+    margin-bottom: 0;
+
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bg1)
+}
+
+/* hover effect for FAH quesstion */
+
+.accordion-button:hover {
+background-color: rgb(240, 233, 240);
+color: var(--bg1);
+}
+
+.accordion-button::after {
+    font-family: "Font awesome 5 Free";
+    content: "";
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: "";
+}
+
+#faq{
+background-color: rgb(158, 131, 143);
+}
+
+.footer .container {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer .col-md-3 {
+        margin-bottom: 30px;
+    }
+}
+#footer {
+    background-color:rgb(252, 239, 243);
+}
+
+
+
